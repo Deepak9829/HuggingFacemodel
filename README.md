@@ -35,6 +35,9 @@ In the directory containing the Dockerfile build by the github action CI will tr
 ```
 
 ### Run the Docker Container
+```sh
+Docker Image: https://hub.docker.com/repository/docker/deepakdocker25/huggingfacemodel/tags
+```
 To run the container and generate the report, use the following command. This command mounts the local report directory to the container's /report directory so that the generated report is accessible on the host machine.
 
 ```sh
